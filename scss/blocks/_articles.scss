@@ -1,0 +1,134 @@
+.articles__title{
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  margin-bottom: 80px;
+  text-align: center;
+  color:#333;
+}
+
+.articles__list{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 256px;
+}
+
+.articles__item{
+  width: 305px;
+  background-color: #fefefe;
+  border-radius: 5px;
+
+}
+
+.articles__item--active{
+  display: flex;
+  width: 640px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.articles__img{
+  margin-bottom: 21px;
+}
+
+.articles__img--active{
+  margin-right: 31px;
+  margin-bottom: 0;
+}
+
+.articles__subitem-wrapper{
+  width: 270px;
+  margin-top: 41px;
+}
+
+.articles__time{
+  margin-bottom: 2px;
+  margin-left: 212px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color:#949494;
+}
+
+.articles__text-wrapper{
+  width: 244px;
+  margin-bottom: 38px;
+  margin-left: 30px;
+}
+
+.articles__sub-title{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.articles__sub-title--active{
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 29px;
+  color:#333;
+  margin-top: 29px;
+  margin-bottom: 15px;
+
+}
+
+
+.articles__text{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color:#949494;
+  margin-bottom: 38px;
+}
+
+.articles__text--active{
+  width: 240px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color:#949494;
+  margin-bottom: 36px;
+}
+
+
+.articles__link{
+  margin-left: 44px;
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color:#333;
+  
+
+  &:hover{
+    color:#FFBD54;
+  }
+
+  &:active{
+    color:#333;
+    opacity: 0.6;
+  }
+
+  &::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/pet.svg");
+    background-repeat: no-repeat;
+    top: -4px;
+    left: -44px;
+  }
+}
