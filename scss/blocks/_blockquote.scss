@@ -1,0 +1,80 @@
+.blockquote__wrapper{
+  width: 1134px;
+  margin-right: 64px;
+  margin-left: 121px;
+  padding: 64px 184px 0px 197px;
+  position: relative;
+
+  &::before{
+    content: "";
+    width: 140px;
+    height: 1px;
+    position: absolute;
+    background-image: url("../images/Line\ 3.svg");
+    background-repeat: no-repeat;
+    top:24px;
+    left: 467px;
+  }
+
+  &::after{
+    content: "";
+    width: 140px;
+    height: 1px;
+    position: absolute;
+    background-image: url("../images/Line\ 3.svg");
+    background-repeat: no-repeat;
+    bottom:57px;
+    right: 528px;
+  }
+}
+
+.blockquote__text-item{
+  width: 753px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blockquote__text{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color:#949494;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 70px;
+  position: relative;
+
+  &::before{
+    content: "";
+    width: 142px;
+    height: 128px;
+    background-image: url("../images/“.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -80px;
+    top: -23px;
+
+  }
+
+  &::after{
+    content: "";
+    width: 148px;
+    height: 78px;
+    background-image: url("../images/“\ \(1\).svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -180px;
+    top: 35px;
+  }
+}
+
+.blockquote__strong{
+  margin: 0;
+  padding: 0;
+  margin-left: 164px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color:#333;
+
+}

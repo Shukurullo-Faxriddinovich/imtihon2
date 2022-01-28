@@ -1,0 +1,272 @@
+.our-services__wrapper{
+  margin-top: 191px;
+  margin-left: 49px;
+}
+
+
+.our-services__title{
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  color:#333;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.our-services__list{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.our-services__item{
+  display: flex;
+  width: 193px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 14px;
+  margin-right: 13px;
+  padding:129px 32px 28px 35px;
+  align-items: center;
+  
+  &:hover{
+    opacity: 0.8;
+
+  }
+  
+
+  &:active{
+    opacity: 0.6;
+  }
+
+
+  &:nth-child(1){
+    padding-bottom: 42px;
+    padding-left: 50px;
+    margin-bottom: 0;
+    position: relative;
+
+    &::before{
+      content: "";
+      width: 54px;
+      height: 77px;
+      position: absolute;
+      background-image: url("../images/doctor1.svg");
+      background-repeat: no-repeat;
+      top:30px;
+      left:71px;
+     }
+  }
+
+  &:nth-child(2){
+    padding-left: 50px;
+    position: relative;
+
+    &::before{
+      content: "";
+      width: 61px;
+      height: 77px;
+      position: absolute;
+      background-image: url("../images/filled-outline\ \(1\).svg");
+      background-repeat: no-repeat;
+      top:30px;
+      left:71px;
+     }
+  }
+  
+  &:nth-child(3){
+    position: relative;
+    
+    &::before{
+      content: "";
+      width: 72px;
+      height: 77px;
+      position: absolute;
+      background-image: url("../images/3.svg");
+      background-repeat: no-repeat;
+      top:30px;
+      left:60px;
+      
+    }
+  }
+
+  &:nth-child(4){
+    position: relative;
+    
+    &::before{
+      content: "";
+      width: 76px;
+      height: 76px;
+      position: absolute;
+      background-image: url("../images/4.svg");
+      background-repeat: no-repeat;
+      top:30px;
+      left:51px;
+      
+    }
+  }
+
+  &:nth-child(5){
+    position: relative;
+    
+    &::before{
+      content: "";
+      width: 78px;
+      height: 78px;
+      position: absolute;
+      background-image: url("../images/5.svg");
+      background-repeat: no-repeat;
+      top:30px;
+      left: 57px;
+      
+    }
+  }
+
+  &:nth-child(6){
+    margin-right: 0;   
+    position: relative;
+
+    &::before{
+      content: "";
+      width: 78px;
+      height: 78px;
+      position: absolute;
+      background-image: url("../images/6.svg");
+      background-repeat: no-repeat;
+      top:31px;
+      left: 58px;
+      
+    }
+
+
+  }
+
+  
+}
+
+.our-services__item-link{
+  
+  text-decoration: none;
+  color:#333;
+  
+}
+
+
+.our-services__user{
+  width: 1223px;
+  display: flex;
+  padding: 41px 0;
+  background-color: #fff;
+
+}
+
+.our-services__img{
+  margin-right: 67px;
+  margin-left: 35px;
+}
+
+.our-services__sub-item{
+  width: 492px;
+  margin-top: 33px;
+}
+
+.our-services__strong{
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 20px;
+  color:#333;
+}
+
+.our-services__text{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color:#949494;
+  margin-top: 18px;
+  margin-bottom: 9px;
+
+}
+
+.our-services__sub-text{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color:#949494;
+  margin-bottom: 49px;
+
+}
+
+.our-services__link-user{
+  display: flex;
+}
+
+.our-services__link{
+  padding: 15px 36px 16px 63px;
+  text-decoration: none;
+  background-color: #FFBD54;
+  color:#fff;
+  position: relative;
+  border-radius: 3px;
+  margin-right: 21px;
+
+  &::before{
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-image: url("../images/Group1.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    top:13px;
+    left:34px;
+
+  }
+
+  &:hover{
+    background-color:#333;
+    color:#FFBD54;
+  }
+
+  &:active{
+    opacity: 0.6;
+  }
+}
+
+.our-services__sub-link{
+  padding: 15px 37px 14px 64px;
+  text-decoration: none;
+  position: relative;
+  border-radius: 3px;
+  background-color: #333;
+  color: #fff;
+
+  &::before{
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-image: url("../images/document1.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    top:12px;
+    left:36px;
+  }
+  
+
+  &:hover{
+    color:#333;
+    background-color:#FFBD54;    
+  }
+
+  &:active{
+    opacity: 0.6;
+  }
+
+}
